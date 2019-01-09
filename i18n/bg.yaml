@@ -6,7 +6,6 @@ bg:
     DigitalGlobe-Premium:
       attribution:
         text: Условия & oбратна връзка
-      description: Премиум DigitalGlobe сателитни изображения
       name: DigitalGlobe премиум изображения
     DigitalGlobe-Premium-vintage:
       attribution:
@@ -16,7 +15,6 @@ bg:
     DigitalGlobe-Standard:
       attribution:
         text: Условия & oбратна връзка
-      description: Стандартни DigitalGlobe сателитни изображения.
       name: Стандартни DigitalGlobe изображения
     DigitalGlobe-Standard-vintage:
       attribution:
@@ -26,7 +24,7 @@ bg:
     EsriWorldImagery:
       attribution:
         text: Условия & oбратна връзка
-      description: Esri world изображения.
+      description: Esri World изображения.
       name: Esri World изображения
     EsriWorldImageryClarity:
       attribution:
@@ -71,8 +69,6 @@ bg:
       attribution:
         text: © Geofabrik GmbH, OpenStreetMap contributors, CC-BY-SA
       name: 'OSM Inspector: Тагове'
-    US-TIGER-Roads-2012:
-      name: TIGER Пътища 2012
     US-TIGER-Roads-2014:
       description: При ниво на увеличение 16+, публично достъпни картографски данни от US Census. При по-ниски нива увеличение само промените от 2006 година насам без тези вече включени в OpenStreetMap
       name: TIGER Пътища 2014
@@ -80,6 +76,7 @@ bg:
       description: Жълто = Публично достъпни картографски данни от US Census. Червено = Данни, които не са нанесени в OpenStreetMap
       name: TIGER Пътища 2017
     US_Forest_Service_roads_overlay:
+      description: 'Път: Зелено очертание = некласифициран. Кафяво очертание = track. Повърхност: чакъл = светло кафяво запълване, асфалт = черно, павиран = сиво, земен = бяло, бетон = синьо, трева = зелено. Сезонен = бели черти'
       name: Слой Горски пътища в САЩ
     Waymarked_Trails-Cycling:
       attribution:
@@ -111,10 +108,6 @@ bg:
         text: basemap.at
       description: Ортофото слой осигурен от basemap.at. "Приемник" на geoimage.at изображенията.
       name: basemap.at Ортофото
-    hike_n_bike:
-      attribution:
-        text: © OpenStreetMap contributors
-      name: Туризъм & Колоездене
     mapbox_locator_overlay:
       attribution:
         text: Условия & обратна връзка

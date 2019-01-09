@@ -1,8 +1,19 @@
-var map = L.map('map').fitWorld();
+var map = L.map('map', {
+        minZoom: 0,
+        maxZoom: 25
+    }).fitWorld();
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
 }).addTo(map);
+
+var testLayer;
+var testLayerOpacity = 1;
+
+function updateOpacity(value) {
+    testLayerOpacity = value;
+    testLayer.setOpacity(value);
+}
 
 d3.json("imagery.geojson", function(error, imagery) {
     imagery.features = imagery.features.sort(function(a,b) {
@@ -39,7 +50,7 @@ d3.json("imagery.geojson", function(error, imagery) {
     })
     .addTo(map)
 
-    var testLayer = L.geoJson(/* dummy */).addTo(map)
+    testLayer = L.geoJson(/* dummy */).addTo(map)
 
     var divs = d3.select('#wrap')
         .selectAll('div')
@@ -93,6 +104,9 @@ d3.json("imagery.geojson", function(error, imagery) {
                 url = url.replace(/{switch:(.*?)}/, '{s}');
                 testLayer = L.tileLayer(url, {
                     subdomains: domains,
+                    minZoom: 0,
+                    maxZoom: 25,
+                    opacity: testLayerOpacity,
                     attribution: d.properties.attribution ?
                         '&copy; ' + (d.properties.attribution.url ?
                             '<a href="'+d.properties.attribution.url+'">'+d.properties.attribution.text+'</a>' :
@@ -114,6 +128,9 @@ d3.json("imagery.geojson", function(error, imagery) {
                     format: format,
                     version: version,
                     transparent: transparent,
+                    minZoom: 0,
+                    maxZoom: 25,
+                    opacity: testLayerOpacity,
                     uppercase: true,
                     attribution: d.properties.attribution ?
                         '&copy; ' + (d.properties.attribution.url ?

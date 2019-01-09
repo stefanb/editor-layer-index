@@ -1,12 +1,24 @@
 sv:
   imagery:
+    AGIV:
+      attribution:
+        text: Ortofoto Flandern mest aktuella © AGIV
+      name: AGIV Flanderns mest aktuella flygfoton
+    AGIV10cm:
+      attribution:
+        text: Ortofoto Flandern © AGIV
+      name: AGIV Flandern 2013–2015 flygfoton 10 cm
+    AGIVFlandersGRB:
+      attribution:
+        text: GRB Flandern © AGIV
+      name: AGIV Flandern GRB
     Bing:
       description: Satellit- eller flygfoton.
       name: Bing-flygfoto
     DigitalGlobe-Premium:
       attribution:
         text: Villkor & återkoppling
-      description: Premium DigitalGlobe-satellitfoton.
+      description: DigitalGlobe-Premium är ett mosaik som består av DigitalGlobes baskarta med valda regioner fyllda med +Vivid eller anpassade område med intressanta flygfoton, 50 cm upplösning eller bättre och uppdateras oftare med fortlöpande uppdateringar.
       name: DigitalGlobe Premium-bilder
     DigitalGlobe-Premium-vintage:
       attribution:
@@ -16,7 +28,7 @@ sv:
     DigitalGlobe-Standard:
       attribution:
         text: Villkor & återkoppling
-      description: Standard DigitalGlobe-satellitfoton.
+      description: DigitalGlobe-Standard är en kuraterad bildserie som täcker 86% av jordens landmassa, med 30–60 cm upplösning där den är tillgänglig och Landsat för övrig yta. Medelåldern är 2,31 år och vissa områden uppdaterade 2 gånger per år.
       name: DigitalGlobe Standard-bilder
     DigitalGlobe-Standard-vintage:
       attribution:
@@ -71,16 +83,42 @@ sv:
       attribution:
         text: © Geofabrik GmbH, OpenStreetMaps bidragsgivare, CC-BY-SA
       name: 'OSM Inspector: Taggning'
-    US-TIGER-Roads-2012:
-      name: TIGER Roads 2012
+    SPW_ORTHO_LAST:
+      name: SPW(allonie) mest aktuella flygfoton
+    SPW_PICC:
+      name: SPW(allonie) PICC numerisk bild
     US-TIGER-Roads-2014:
       description: Vid zoomnivå 16+, fritt tillgänglig kartdata (public domain) från US Census. Vid lägre zoomnivåer, enbart ändringar sedan 2006 minus ändringar redan införlivats i OpenStreetMap.
       name: TIGER Roads 2014
     US-TIGER-Roads-2017:
       description: Gul = Fritt tillgänglig kartdata (public domain) från US Census. Röd = Data ej hittad i OpenStreetMap
       name: TIGER Roads 2017
+    US-TIGER-Roads-2018:
+      description: Gul = Fritt tillgänglig kartdata (public domain) från US Census. Röd = Data ej hittad på OpenStreetMap
+      name: TIGER Roads 2018
     US_Forest_Service_roads_overlay:
+      description: 'Väg: Grön ram = oklassificerad. Brun ram = bruksväg. Underlag: grus = ljusbrun fyllning, asfalt = svart, belagd = grå, mark = vit, betong = blå, gräs = grön. Säsongsöppen = vita streck'
       name: Bildlager för Skogsvägar i USA
+    UrbISOrtho2016:
+      attribution:
+        text: Realiserad med hjälp från Bryssel UrbIS®© – Distribution & Copyright CIRB
+      name: UrbIS-Ortho 2016
+    UrbISOrtho2017:
+      attribution:
+        text: Realiserad med hjälp från Bryssel UrbIS®© – Distribution & Copyright CIRB
+      name: UrbIS-Ortho 2017
+    UrbISOrtho2018:
+      attribution:
+        text: Realiserad med hjälp från Bryssel UrbIS®© – Distribution & Copyright CIRB
+      name: UrbIS-Ortho 2018
+    UrbisAdmFR:
+      attribution:
+        text: Realiserad med hjälp från Bryssel UrbIS®© – Distribution & Copyright CIRB
+      name: UrbisAdm FR
+    UrbisAdmNL:
+      attribution:
+        text: Realiserad med hjälp från Bryssel UrbIS®© – Distribution & Copyright CIRB
+      name: UrbisAdm NL
     Waymarked_Trails-Cycling:
       attribution:
         text: © waymarkedtrails.org, OpenStreetMaps bidragsgivare, CC by-SA 3.0
@@ -111,10 +149,71 @@ sv:
         text: basemap.at
       description: Ortofoto-lager tillhandahållen av basemap.at. "Efterträdare" till geoimage.at imagery.
       name: basemap.at ortofoto
-    hike_n_bike:
+    eufar-balaton:
       attribution:
-        text: © OpenStreetMaps bidragsgivare
-      name: Vandring & cykel
+        text: EUFAR Balaton ortofoto 2010
+      description: 1940 geo-taggat fotografi från Balaton Limnological Institute.
+      name: EUFAR Balaton ortofoton
+    finds.jp_KBN_2500:
+      attribution:
+        text: GSI KIBAN 2500
+      description: GSI Kiban 2500 via finds.jp. Bra för kartläggning, men lite gammal.
+      name: Japan GSI KIBAN 2500
+    gsi.go.jp:
+      attribution:
+        text: GSI Japan
+      description: Japan GSI ortho-flygfoton. Vanligtvis bättre än Bing, men lite äldre
+      name: Japan GSI ortho-flygfoton
+    gsi.go.jp_std_map:
+      attribution:
+        text: GSI Japan
+      description: Japan GSI standardkarta. Stor täckning.
+      name: Japan GSI standardkarta
+    helsingborg-orto:
+      attribution:
+        text: © Helsingborgs kommun
+      description: Flygfoton från Helsingborgs kommun 2016, allmänt tillgängligt
+      name: Flygfoton Helsingborg
+    kalmar-orto-2014:
+      attribution:
+        text: © Kalmar kommun
+      description: Flygfoton över den norra kusten av Kalmar kommun 2014
+      name: Kalmar norra, flygfoton 2014
+    kalmar-orto-2016:
+      attribution:
+        text: © Kalmar kommun
+      description: Flygfoton över den södra kusten av Kalmar kommun 2016
+      name: Kalmar södra, flygfoton 2016
+    kalmar-orto-2018:
+      attribution:
+        text: © Kalmar kommun
+      description: Flygfoton över tätorter i Kalmar kommun 2018
+      name: Kalmar tätort, flygfoton 2018
+    kelkkareitit:
+      attribution:
+        text: © Kelkkareitit.fi
+      description: Kelkkareitit.fi snöskoterleder från OSM (Nordisk täckning)
+      name: Bildlager med nordiska skoterleder
+    lantmateriet-orto1960:
+      attribution:
+        text: © Lantmäteriet, CC0
+      description: Mosaik av svenska ortofoton från perioden 1955–1965. Äldre och yngre bilder kan förekomma.
+      name: Lantmäteriets historiska ortofoton 1960
+    lantmateriet-orto1975:
+      attribution:
+        text: © Lantmäteriet, CC0
+      description: Mosaik av svenska ortofoton från perioden 1970–1980. Är under uppbyggnad.
+      name: Lantmäteriets historiska ortofoton 1975
+    lantmateriet-topowebb:
+      attribution:
+        text: © Lantmäteriet, CC0
+      description: Topografisk karta över Sverige 1:50 000
+      name: Lantmäteriets topografiska karta
+    linkoping-orto:
+      attribution:
+        text: © Linköpings kommun
+      description: Flygfoton från Linköpings kommun 2010, allmänt tillgängligt
+      name: Flygfoton Linköping
     mapbox_locator_overlay:
       attribution:
         text: Villkor & återkoppling
@@ -137,6 +236,11 @@ sv:
       attribution:
         text: © OpenStreetMaps bidragsgivare, CC-BY-SA
       name: OpenStreetMap (Tysk stil)
+    osmse-ekonomiska:
+      attribution:
+        text: © Lantmäteriet
+      description: Inskanning av "Ekonomisk karta" från ungefär 1950–1980
+      name: Lantmäteriets Ekonomiska karta 1950–1980
     qa_no_address:
       attribution:
         text: Simon Poole, Data ©OpenStreetMaps bidragsgivare
@@ -145,10 +249,20 @@ sv:
       attribution:
         text: '© Plattor: skobbler Kartdata: OpenStreetMaps contributors'
       name: skobbler
+    skoterleder:
+      attribution:
+        text: © Skoterleder.org
+      description: Snöskoterleder
+      name: Snöskoterkarta, Sverige
     stamen-terrain-background:
       attribution:
         text: 'Kartplattor av Stamen Design, under CC BY 3.0. Data från OpenStreetMap, under ODbL '
       name: Stamen terräng
+    stockholm-orto:
+      attribution:
+        text: © Stockholms kommun, CC0
+      description: Flygfoton från Stockholms kommun 2015, CC0-licens
+      name: Flygfoton Stockholm
     tf-cycle:
       attribution:
         text: Kartor © Thunderforest, Data © OpenStreetMaps bidragsgivare
@@ -157,3 +271,33 @@ sv:
       attribution:
         text: Kartor © Thunderforest, Data © OpenStreetMaps bidragsgivare
       name: Thunderforest landskap
+    trafikverket-baninfo:
+      attribution:
+        text: © Trafikverket, CC0
+      description: Svenska järnvägsnätverket, inklusive sidospår
+      name: Trafikverkets järnvägsnätverk
+    trafikverket-baninfo-option:
+      attribution:
+        text: © Trafikverket, CC0
+      description: Svenska järnvägsnätverket med flera kartlager att välja
+      name: Trafikverkets järnvägsdatabas anpassningsbar
+    trafikverket-vagnat:
+      attribution:
+        text: © Trafikverket, CC0
+      description: Svenska nationella vägdatabasen, NVDB
+      name: Trafikverkets vägnätverk
+    trafikverket-vagnat-extra:
+      attribution:
+        text: © Trafikverket, CC0
+      description: 'Svenska nationella vägdatabasen, NVDB, med extra detaljer: Vägreferenser, hastighetsdämpare, busshållplatser, broar, tunnlar, fartkameror.'
+      name: Trafikverkets vägnätverk extra
+    trafikverket-vagnat-navn:
+      attribution:
+        text: © Trafikverket, CC0
+      description: Svenska nationella vägdatabasen, NVDB – Gatunamn
+      name: Trafikverkets gaturnamn
+    trafikverket-vagnat-option:
+      attribution:
+        text: © Trafikverket, CC0
+      description: Svenska nationella vägdatabasen, NVDB, med flera kartlager att välja
+      name: Trafikverkets vägdatabas anpassningsbar
