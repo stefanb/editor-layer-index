@@ -726,7 +726,7 @@
         "license": "CC-BY-2.5",
         "license_url": "https://wiki.openstreetmap.org/wiki/GURS",
         "max_zoom": 17,
-        "min_zoom": 8,
+        "min_zoom": 17,
         "name": "Računalniški muzej: GURS TTN names",
         "overlay": true,
         "type": "tms",
