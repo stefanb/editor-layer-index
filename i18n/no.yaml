@@ -3,7 +3,13 @@
     Bing:
       description: Flyfoto og satellitt-ortofoto.
       name: Bing ortofoto
-    DigitalGlobe-Premium:
+    EsriWorldImagery:
+      attribution:
+        text: Vilkår og tilbakemelding
+    EsriWorldImageryClarity:
+      attribution:
+        text: Vilkår og tilbakemelding
+    Mapbox:
       attribution:
         text: Vilkår og tilbakemelding
     osm-gps:

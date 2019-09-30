@@ -1,40 +1,8 @@
 vi:
   imagery:
-    AGIV:
-      attribution:
-        text: Hình ảnh trực giao Vlaanderen mới nhất © AGIV
-      name: Hình ảnh trực giao Vlaanderen mới nhất của AGIV
-    AGIV10cm:
-      attribution:
-        text: Hình ảnh trực giao Vlaanderen © AGIV
-      name: Hình chụp trên không 10 cm 2013–2015 Vlaanderen AGIV
-    AGIVFlandersGRB:
-      attribution:
-        text: GRB Vlaanderen © AGIV
-      name: AGIV Vlaanderen GRB
     Bing:
       description: Hình ảnh chụp từ vệ tinh và trên không trung.
       name: Hình chụp trên không Bing
-    DigitalGlobe-Premium:
-      attribution:
-        text: Điều khoản & Phản hồi
-      description: 'DigitalGlobe Thượng hạng là một lớp hình ảnh hỗn hợp: ở nhiều nơi có lớp hình gốc của DigitalGlobe, còn một số khu vực được ghép lại hình ảnh +Vivid hoặc hình ảnh khu vực quan tâm tùy biến có độ phân giải 50 cm trở lên, và được cập nhật thường xuyên hơn.'
-      name: DigitalGlobe Thượng hạng
-    DigitalGlobe-Premium-vintage:
-      attribution:
-        text: Điều khoản & Phản hồi
-      description: Biên giới và ngày tháng chụp. Các nhãn xuất hiện tại mức thu phóng 13 trở lên.
-      name: Lúc chụp DigitalGlobe Thượng hạng
-    DigitalGlobe-Standard:
-      attribution:
-        text: Điều khoản & Phản hồi
-      description: DigitalGlobe Tiêu chuẩn là tập hợp hình ảnh được lựa chọn chiếm 86% tổng diện tích đất đai của Trái Đất có độ phân giải 30–60 cm ở nơi nào có sẵn; ở nơi nào không có sẵn thì có hình ảnh Landsat thay thế. Hình ảnh được chụp cách đây trung bình 2,31 năm, một số khu vực được cập nhật mỗi năm hai lần.
-      name: DigitalGlobe Tiêu chuẩn
-    DigitalGlobe-Standard-vintage:
-      attribution:
-        text: Điều khoản & Phản hồi
-      description: Biên giới và ngày tháng chụp. Các nhãn xuất hiện tại mức thu phóng 13 trở lên.
-      name: Lúc chụp DigitalGlobe Tiêu chuẩn
     EsriWorldImagery:
       attribution:
         text: Điều khoản & Phản hồi
@@ -168,6 +136,11 @@ vi:
         text: GSI Nhật Bản
       description: Hình ảnh trực giao GSI Nhật Bản. Thường rõ hơn Bing nhưng hơi cũ hơn.
       name: Hình ảnh trực giao GSI Nhật Bản
+    gsi.go.jp_airphoto:
+      attribution:
+        text: GSI Nhật Bản
+      description: Hình ảnh trực giao GSI Nhật Bản từ không trung. Không hoàn toàn chiếu trực giao nhưng đúng thời hơn một tí hoặc có mức phủ đất khác với hình ảnh trực giao GSI.
+      name: Hình trực giao GSI Nhật Bản
     gsi.go.jp_std_map:
       attribution:
         text: GIS Nhật Bản
@@ -265,7 +238,6 @@ vi:
     stockholm-orto:
       attribution:
         text: © đô thị Stockholm, CC0
-      description: Hình ảnh trực giao từ đô thị Stockholm năm 2015 được phát hành theo CC0
       name: Hình trực giao Stockholm
     tf-cycle:
       attribution:

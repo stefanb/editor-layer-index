@@ -2,39 +2,32 @@ uk:
   imagery:
     AGIV:
       attribution:
-        text: Свіжі Ортофото Фландрія © AGIV
-      name: Свіжі аерофотознімки Фландрії від AGIV
+        text: © agentschap Informatie Vlaanderen
+      name: Свіжі аерофотознімки Фландрії від AIV
     AGIV10cm:
       attribution:
-        text: Ортофото Фландрія © AGIV
-      name: Аерофотознімки Фландрії від AGIV 2013-2015 10см
+        text: © agentschap Informatie Vlaanderen
+      name: Аерофотознімки Фландрії від AIV 2013-2015 10см
     AGIVFlandersGRB:
       attribution:
-        text: GRB Фландрія © AGIV
-      name: GBR знімки Фландрії від AGIV
+        text: © agentschap Informatie Vlaanderen
+      name: GRB Фландрія AIV
+    AIV_DHMV_II_HILL_25cm:
+      attribution:
+        text: © agentschap Informatie Vlaanderen
+      name: AIV Цифрова модель висот Фландрії II, багатонаправлена ​​відмивка 0,25 м
+    AIV_DHMV_II_SVF_25cm:
+      attribution:
+        text: © agentschap Informatie Vlaanderen
+      name: AIV Цифрова модель висот Фландрії II, коефіцієнт Skyview 0,25 м
     Bing:
       description: Супутникові та аерофотознімки.
       name: Знімки Bing
-    DigitalGlobe-Premium:
+    EOXAT2018CLOUDLESS:
       attribution:
-        text: Умови використання та Відгуки
-      description: DigitalGlobe-Premium – мозаїка зібрана з основного покриття DigitalGlobe та окремих ділянок заповнених знімками +Vivid або знімками зробленими на замовлення, розподільча здатність 50 см чи краще, з поточним оновленням.
-      name: Знімки DigitalGlobe Premium
-    DigitalGlobe-Premium-vintage:
-      attribution:
-        text: Умови використання та Відгуки
-      description: 'Межі та дати знімків. Підписи з''являються з 13 рівня масштабування. '
-      name: Період знімків DigitalGlobe Premium
-    DigitalGlobe-Standard:
-      attribution:
-        text: Умови використання та Відгуки
-      description: DigitalGlobe-Standard – підібрана збірка, що покриває 86% поверхні сущі, з розподільчою здатністю 30-60 см, де це можливо, заповнена Landsat. Середній вік – 2.31 роки, деякі ділянки оновлюються 2 рази на рік.
-      name: Знімки DigitalGlobe Standard
-    DigitalGlobe-Standard-vintage:
-      attribution:
-        text: Умови використання та Відгуки
-      description: 'Межі та дати знімків. Підписи з''являються з 13 рівня масштабування. '
-      name: Період знімків DigitalGlobe Standard
+        text: Sentinel-2 безхмарні знімки - https://s2maps.eu від EOX IT Services GmbH (Містить модифіковані дані Copernicus Sentinel 2017 та 2018)
+      description: Оброблені супутникові знімки Sentinel.
+      name: eox.at 2018 без хмар
     EsriWorldImagery:
       attribution:
         text: Умови використання та Відгуки
@@ -55,6 +48,16 @@ uk:
         text: Умови використання та Відгуки
       description: Супутникові та аерофотознімки.
       name: Супутникові знімки Mapbox
+    Maxar-Premium:
+      attribution:
+        text: Умови використання та Відгуки
+      description: Maxar Premium – мозаїка зібрана з основного покриття Maxar та окремих ділянок заповнених знімками +Vivid або знімками зробленими на замовлення, розподільча здатність 50 см чи краще, з поточним оновленням.
+      name: Знімки Maxar Premium (Beta)
+    Maxar-Standard:
+      attribution:
+        text: Умови використання та Відгуки
+      description: Maxar Standard – підібрана збірка, що покриває 86% поверхні суші, з розподільчою здатністю 30-60 см, де це можливо, заповнена Landsat. Середній вік – 2.31 роки, деякі ділянки оновлюються 2 рази на рік.
+      name: Знімки Maxar Standard (Beta)
     OSM_Inspector-Addresses:
       attribution:
         text: © Geofabrik GmbH, Учасники OpenStreetMap, CC-BY-SA
@@ -96,6 +99,9 @@ uk:
     US-TIGER-Roads-2018:
       description: Жовтий = Дані, що розповсюджуються US Census на умовах суспільного надбання. Червоний = Дані, відсутні в OpenStreetMap
       name: TIGER Roads 2018
+    USDA-NAIP:
+      description: Останній рік DOQQ від Національної програми землеробства (NAIP) для кожного штату
+      name: Знімки Національної програми землеробства
     US_Forest_Service_roads_overlay:
       description: 'Дороги: Зелений контур = unclassified. Коричневий контур = track. Покриття: gravel = світло-коричневе заповнення, asphalt = чорне, paved = сіре, ground = біле, concrete = синє, grass = зелене. Seasonal = білі смуги'
       name: U.S. Forest Roads, додатковий шар
@@ -107,6 +113,10 @@ uk:
       attribution:
         text: Випущено за допомоги Brussels UrbIS®© - Distribution & Copyright CIRB
       name: UrbIS-Ortho 2017
+    UrbISOrtho2018:
+      attribution:
+        text: Випущено за допомоги Brussels UrbIS®© - Distribution & Copyright CIRB
+      name: UrbIS-Ortho 2018
     UrbisAdmFR:
       attribution:
         text: Випущено за допомоги Brussels UrbIS®© - Distribution & Copyright CIRB
@@ -145,6 +155,21 @@ uk:
         text: basemap.at
       description: Шат ортофото надається basemap.at. "Наступник" знімків від geoimage.at.
       name: basemap.at Ортофото
+    basemap.at-overlay:
+      attribution:
+        text: basemap.at
+      description: Шар з підписами від  basemap.at.
+      name: basemap.at - допоміжний шар
+    basemap.at-surface:
+      attribution:
+        text: basemap.at
+      description: Шар поверхні від  basemap.at.
+      name: basemap.at - поверхня
+    basemap.at-terrain:
+      attribution:
+        text: basemap.at
+      description: Шар ландшафту від  basemap.at.
+      name: basemap.at - ландшафт
     eufar-balaton:
       attribution:
         text: EUFAR Балатон ортофото 2010
@@ -160,6 +185,16 @@ uk:
         text: GSI Japan
       description: Japan GSI ортофото. Зазвичай краще, ніж Bing, але трохи застарілі.
       name: Japan GSI ортофото
+    gsi.go.jp_airphoto:
+      attribution:
+        text: GSI Japan
+      description: Japan GSI аерофотознімки. Не повністю орторектифіковані, але трохи новіші та/або з різним покриттям, ніж GSI ортознімки.
+      name: Japan GSI аерофотознімки
+    gsi.go.jp_seamlessphoto:
+      attribution:
+        text: GSI Japan безшовні фото
+      description: 'GSI Japan безшовні фото - збірка останніх знімків від GSI: орто, аерофто, знімки з місць катастроф та інше.'
+      name: GSI Japan безшовні фото
     gsi.go.jp_std_map:
       attribution:
         text: GSI Japan
@@ -168,7 +203,7 @@ uk:
     helsingborg-orto:
       attribution:
         text: © Helsingborg municipality
-      description: Ортофоти муніципалітету Хельсінгборг, 2016 р., громадське надбання
+      description: Ортофото муніципалітету Хельсінгборг, 2016 р., суспільне надбання
       name: Хельсінгборг ортофото
     kalmar-orto-2014:
       attribution:
@@ -208,7 +243,7 @@ uk:
     linkoping-orto:
       attribution:
         text: © Linköping municipality
-      description: Ортофоти муніципалітету Лінчепінг, 2010 р., ввідкриті дані
+      description: Ортофото муніципалітету Лінчепінг, 2010 р., відкриті дані
       name: Лінчепінг ортофото
     mapbox_locator_overlay:
       attribution:
@@ -257,7 +292,7 @@ uk:
     stockholm-orto:
       attribution:
         text: © Stockholm municipality, CC0
-      description: Ортофоти муніципалітету Стокгольм, 2015 р., Ліцензія CC0
+      description: Ортофото муніципалітету Стокгольм, 2016 р., Ліцензія CC0
       name: Стокгольм ортофото
     tf-cycle:
       attribution:
