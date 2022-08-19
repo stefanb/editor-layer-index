@@ -1,5 +1,6 @@
 {
     "geometry": {
+        "type": "Polygon",
         "coordinates": [
             [
                 [
@@ -7,24 +8,23 @@
                     55.91995983
                 ],
                 [
-                    -4.70222026,
-                    55.9427679
+                    -4.6692798,
+                    55.92064372
                 ],
                 [
                     -4.67084958,
                     55.94345237
                 ],
                 [
-                    -4.6692798,
-                    55.92064372
+                    -4.70222026,
+                    55.9427679
                 ],
                 [
                     -4.70063209,
                     55.91995983
                 ]
             ]
-        ],
-        "type": "Polygon"
+        ]
     },
     "properties": {
         "attribution": {
@@ -42,7 +42,8 @@
         "name": "OS Town Plans, Port Glasgow 1856-1857 (NLS)",
         "start_date": "1856",
         "type": "tms",
-        "url": "https://geo.nls.uk/maps/towns/portglasgow/{zoom}/{x}/{-y}.png"
+        "url": "https://geo.nls.uk/maps/towns/portglasgow/{zoom}/{x}/{-y}.png",
+        "category": "historicmap"
     },
     "type": "Feature"
 }

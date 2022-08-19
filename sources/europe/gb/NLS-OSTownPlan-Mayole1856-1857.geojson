@@ -1,5 +1,6 @@
 {
     "geometry": {
+        "type": "Polygon",
         "coordinates": [
             [
                 [
@@ -7,24 +8,23 @@
                     55.34340178
                 ],
                 [
-                    -4.6918884,
-                    55.35849731
+                    -4.6698799,
+                    55.34386234
                 ],
                 [
                     -4.67089656,
                     55.35895813
                 ],
                 [
-                    -4.6698799,
-                    55.34386234
+                    -4.6918884,
+                    55.35849731
                 ],
                 [
                     -4.69086378,
                     55.34340178
                 ]
             ]
-        ],
-        "type": "Polygon"
+        ]
     },
     "properties": {
         "attribution": {
@@ -42,7 +42,8 @@
         "name": "OS Town Plans, Mayole 1856-1857 (NLS)",
         "start_date": "1856",
         "type": "tms",
-        "url": "https://geo.nls.uk/maps/towns/maybole/{zoom}/{x}/{-y}.png"
+        "url": "https://geo.nls.uk/maps/towns/maybole/{zoom}/{x}/{-y}.png",
+        "category": "historicmap"
     },
     "type": "Feature"
 }

@@ -1,5 +1,6 @@
 {
     "geometry": {
+        "type": "Polygon",
         "coordinates": [
             [
                 [
@@ -7,24 +8,23 @@
                     55.87936087
                 ],
                 [
-                    -3.08658588,
-                    55.90025926
+                    -3.04308639,
+                    55.87973206
                 ],
                 [
                     -3.0436473,
                     55.90063074
                 ],
                 [
-                    -3.04308639,
-                    55.87973206
+                    -3.08658588,
+                    55.90025926
                 ],
                 [
                     -3.08600192,
                     55.87936087
                 ]
             ]
-        ],
-        "type": "Polygon"
+        ]
     },
     "properties": {
         "attribution": {
@@ -42,7 +42,8 @@
         "name": "OS Town Plans, Dalkeith 1893 (NLS)",
         "start_date": "1893",
         "type": "tms",
-        "url": "https://geo.nls.uk/maps/towns/dalkeith1893/{zoom}/{x}/{-y}.png"
+        "url": "https://geo.nls.uk/maps/towns/dalkeith1893/{zoom}/{x}/{-y}.png",
+        "category": "historicmap"
     },
     "type": "Feature"
 }

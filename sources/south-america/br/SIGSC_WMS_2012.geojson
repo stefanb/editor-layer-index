@@ -4,21 +4,22 @@
         "start_date": "2012",
         "end_date": "2012",
         "id": "sc2012",
-        "url": "http://sigsc.sc.gov.br/sigserver/SIGSC/wms?SERVICE=WMS&FORMAT=image/jpeg&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=OrtoRGB-Landsat-2012&STYLES=&SRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}",
+        "url": "http://sigsc.sc.gov.br/sigserver/SIGSC/wms?LAYERS=OrtoRGB-Landsat-2012&STYLES=&FORMAT=image/jpeg&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap",
         "type": "wms",
         "country_code": "BR",
         "name": "SIG Santa Catarina OrtoRGB 2012",
-        "license_url": "http://sigsc.sds.sc.gov.br",
+        "license_url": "http://sigsc.sc.gov.br/1_Metadados_Matriciais_v1.pdf",
+        "privacy_policy_url": "http://transparenciaempresas.sc.gov.br/ciasc/gestao/privacidade-e-seguranca/privacidade/98-politica-de-privacidade-externa/file",
         "attribution": {
-            "url": "http://sigsc.sds.sc.gov.br/download/termo_sigsc.pdf",
+            "url": "http://sigsc.sc.gov.br",
             "text": "Sistema de Informações Geográficas - Governo de Santa Catarina"
         },
+        "category": "photo",
         "available_projections": [
-            "EPSG:29193",
-            "EPSG:31982",
+            "CRS:84",
             "EPSG:3857",
-            "EPSG:41001",
-            "EPSG:4326"
+            "EPSG:4326",
+            "EPSG:31982"
         ]
     },
     "geometry": {

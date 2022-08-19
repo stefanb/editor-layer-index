@@ -1,5 +1,6 @@
 {
     "geometry": {
+        "type": "Polygon",
         "coordinates": [
             [
                 [
@@ -7,24 +8,23 @@
                     56.69645192
                 ],
                 [
-                    -2.4862257,
-                    56.71918799
+                    -2.45378027,
+                    56.69657324
                 ],
                 [
                     -2.45405417,
                     56.71930941
                 ],
                 [
-                    -2.45378027,
-                    56.69657324
+                    -2.4862257,
+                    56.71918799
                 ],
                 [
                     -2.4859324,
                     56.69645192
                 ]
             ]
-        ],
-        "type": "Polygon"
+        ]
     },
     "properties": {
         "attribution": {
@@ -42,7 +42,8 @@
         "name": "OS Town Plans, Montrose 1861-1862 (NLS)",
         "start_date": "1861",
         "type": "tms",
-        "url": "https://geo.nls.uk/maps/towns/montrose/{zoom}/{x}/{-y}.png"
+        "url": "https://geo.nls.uk/maps/towns/montrose/{zoom}/{x}/{-y}.png",
+        "category": "historicmap"
     },
     "type": "Feature"
 }
