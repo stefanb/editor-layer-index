@@ -1,5 +1,6 @@
 {
     "geometry": {
+        "type": "Polygon",
         "coordinates": [
             [
                 [
@@ -7,24 +8,23 @@
                     55.85448259
                 ],
                 [
-                    -4.4036847,
-                    55.85420972
+                    -4.4514497,
+                    55.83092507
                 ],
                 [
                     -4.40371385,
                     55.83065193
                 ],
                 [
-                    -4.4514497,
-                    55.83092507
+                    -4.4036847,
+                    55.85420972
                 ],
                 [
                     -4.45144945,
                     55.85448259
                 ]
             ]
-        ],
-        "type": "Polygon"
+        ]
     },
     "properties": {
         "attribution": {
@@ -42,7 +42,8 @@
         "name": "OS Town Plans, Paisley 1858 (NLS)",
         "start_date": "1858",
         "type": "tms",
-        "url": "https://geo.nls.uk/maps/towns/paisley/{zoom}/{x}/{-y}.png"
+        "url": "https://geo.nls.uk/maps/towns/paisley/{zoom}/{x}/{-y}.png",
+        "category": "historicmap"
     },
     "type": "Feature"
 }

@@ -1,5 +1,6 @@
 {
     "geometry": {
+        "type": "Polygon",
         "coordinates": [
             [
                 [
@@ -7,24 +8,23 @@
                     54.98252155
                 ],
                 [
-                    -3.27960062,
-                    54.9946601
+                    -3.24828642,
+                    54.98284297
                 ],
                 [
                     -3.24866331,
                     54.99498165
                 ],
                 [
-                    -3.24828642,
-                    54.98284297
+                    -3.27960062,
+                    54.9946601
                 ],
                 [
                     -3.27921439,
                     54.98252155
                 ]
             ]
-        ],
-        "type": "Polygon"
+        ]
     },
     "properties": {
         "attribution": {
@@ -42,7 +42,8 @@
         "name": "OS Town Plans, Annan 1859 (NLS)",
         "start_date": "1859",
         "type": "tms",
-        "url": "https://geo.nls.uk/maps/towns/annan/{zoom}/{x}/{-y}.png"
+        "url": "https://geo.nls.uk/maps/towns/annan/{zoom}/{x}/{-y}.png",
+        "category": "historicmap"
     },
     "type": "Feature"
 }

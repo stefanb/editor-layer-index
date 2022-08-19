@@ -1,5 +1,6 @@
 {
     "geometry": {
+        "type": "Polygon",
         "coordinates": [
             [
                 [
@@ -7,24 +8,23 @@
                     56.0605979
                 ],
                 [
-                    -3.49116489,
-                    56.07898822
+                    -3.44305323,
+                    56.06116138
                 ],
                 [
                     -3.44374075,
                     56.07955208
                 ],
                 [
-                    -3.44305323,
-                    56.06116138
+                    -3.49116489,
+                    56.07898822
                 ],
                 [
                     -3.49045481,
                     56.0605979
                 ]
             ]
-        ],
-        "type": "Polygon"
+        ]
     },
     "properties": {
         "attribution": {
@@ -42,7 +42,8 @@
         "name": "OS Town Plans, Dunfermline 1854 (NLS)",
         "start_date": "1854",
         "type": "tms",
-        "url": "https://geo.nls.uk/maps/towns/dunfermline1854/{zoom}/{x}/{-y}.png"
+        "url": "https://geo.nls.uk/maps/towns/dunfermline1854/{zoom}/{x}/{-y}.png",
+        "category": "historicmap"
     },
     "type": "Feature"
 }

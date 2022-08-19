@@ -1,5 +1,6 @@
 {
     "geometry": {
+        "type": "Polygon",
         "coordinates": [
             [
                 [
@@ -7,24 +8,23 @@
                     55.53499576
                 ],
                 [
-                    -2.86063259,
-                    55.56459732
+                    -2.81941615,
+                    55.53527387
                 ],
                 [
                     -2.82003242,
                     55.56487574
                 ],
                 [
-                    -2.81941615,
-                    55.53527387
+                    -2.86063259,
+                    55.56459732
                 ],
                 [
                     -2.85998582,
                     55.53499576
                 ]
             ]
-        ],
-        "type": "Polygon"
+        ]
     },
     "properties": {
         "attribution": {
@@ -42,7 +42,8 @@
         "name": "OS Town Plans, Selkirk 1865 (NLS)",
         "start_date": "1865",
         "type": "tms",
-        "url": "https://geo.nls.uk/maps/towns/selkirk/{zoom}/{x}/{-y}.png"
+        "url": "https://geo.nls.uk/maps/towns/selkirk/{zoom}/{x}/{-y}.png",
+        "category": "historicmap"
     },
     "type": "Feature"
 }

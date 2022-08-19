@@ -7,7 +7,9 @@
         "name": "OS New Popular Edition historic",
         "min_zoom": 6,
         "max_zoom": 15,
-        "country_code": "GB"
+        "country_code": "GB",
+        "end_date": "1955",
+        "category": "historicmap"
     },
     "geometry": {
         "type": "Polygon",

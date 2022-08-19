@@ -14,8 +14,6 @@ zh_HK:
       description: Esri 之前的航攝圖可能比預設圖層會更清楚和更準確。
       name: Esri World (Clarity) Beta 航攝圖
     MAPNIK:
-      attribution:
-        text: © OpenStreetMap 貢獻者，CC-BY-SA
       description: 預設的 OpenStreetMap 圖層。
       name: OpenStreetMap（標準）
     Mapbox:
@@ -55,9 +53,6 @@ zh_HK:
       name: SPW(allonie) 最新空照圖
     SPW_PICC:
       name: SPW(allonie) PICC 數值圖
-    US-TIGER-Roads-2014:
-      description: 在縮放水平16以上，公共地圖數據乃來自美國人口普查。 在較低的縮放水平時，OpenStreetMap只包括自2006年之前的變更
-      name: TIGER Roads 2014
     US-TIGER-Roads-2017:
       description: 黃色 = 來自美國人口普查的公共地圖數據。紅色 = 在OpenStreetMap找不到數據
       name: TIGER Roads 2017
@@ -108,18 +103,9 @@ zh_HK:
       attribution:
         text: GSI KIBAN 2500
       name: 日本 GSI KIBAN 2500
-    gsi.go.jp:
-      attribution:
-        text: GSI 日本
-      description: 日本 GSI 正射影像。通常比 bing 好，但有點舊。
-      name: 日本 GSI 正射影像
     gsi.go.jp_std_map:
       attribution:
         text: GSI 日本
-    helsingborg-orto:
-      attribution:
-        text: © Helsingborg municipality
-      name: Helsingborg Orthophoto
     kalmar-orto-2014:
       attribution:
         text: © Kalmar municipality
@@ -166,9 +152,6 @@ zh_HK:
       attribution:
         text: © OpenStreetMap 貢獻者，CC-BY-SA
       name: OpenStreetMap（德國格式）
-    osmse-ekonomiska:
-      attribution:
-        text: © Lantmäteriet
     qa_no_address:
       attribution:
         text: Simon Poole，資料 ©OpenStreetMap 貢獻者
@@ -213,11 +196,6 @@ zh_HK:
     trafikverket-vagnat-extra:
       attribution:
         text: © Trafikverket, CC0
-    trafikverket-vagnat-navn:
-      attribution:
-        text: © Trafikverket, CC0
-      description: Swedish NVDB 街道名稱
-      name: Trafikverket Street Names
     trafikverket-vagnat-option:
       attribution:
         text: © Trafikverket, CC0
